@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+   <style>
+    .container{
+    padding-left:300px;
+    padding-right:300px;}
+
+.container-fluid{
+padding-top: 20px;
+}
+  .a { 
+  word-spacing:20px;
+}
+.bg-color{
+  background-color:lightcyan;
+}
+
+  </style>
+    
+    <title>Basic Banking Website</title>
+  </head>
+  <body>
+      <h1> <center>Welcome to Banking Website</center></h1>
+     <div class="bg-color">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"><p class="text-primary mb-1">TSF</p></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="viewusers.jsp">View Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="transfermoney.jsp">Transfer Money</a>
+      </li>
+ <li class="nav-item">
+     <a class="nav-link" href="viewusersaftertransfer.jsp">View transfer Details</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+      <br> <br> 
+     <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3">
+      <h3>Want to create an account?</h3> <br>
+      <h4 style="font-family:comic sans ms;">Plz Register here</h4>
+      <button type="submit" class="btn btn-danger  mx-5 mb-1">Success</button>
+      </div>
+      <br>
+    
+    <div class="col-lg-6 mt-3">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="bank.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="bank2.jpg" class="d-block w-100" alt="...">
+    </div>
+  
+  </div>
+</div>
+    </div>
+    <div class="col-lg-3">
+      <h3>Already an existing customer?</h3> <br>
+      <h4 style="font-family:comic sans ms;">Plz Login here</h4>
+      <button type="submit" class="btn btn-success  mx-5 mb-1">Success</button>
+      </div>
+
+</div>
+</div>
+<br>
+<h1><center><font color="green">Our Services</font></center></h1>
+<br> 
+ <div class="container-fluid">
+  <div class="row mx-4">
+      <div class="card mx-auto" style="width: 18rem;">
+  <img src="card.png" class="card-img-top" alt="..." height="200px" width="500px">
+  <div class="card-body">
+    <h5 class="card-title">Debit/Credit Cards</h5>
+    
+    <a href="#" class="btn btn-primary">View More</a>
+  </div>
+</div>
+<div class="card mx-auto" style="width: 18rem;">
+  <img src="savings.png" class="card-img-top" alt="..." height="200px" width="500px">
+  <div class="card-body">
+    <h5 class="card-title">Savings Accounts</h5>
+    
+    <a href="#" class="btn btn-primary">View More</a>
+  </div>
+</div>
+<div class="card mx-auto" style="width: 18rem;">
+  <img src="loans.jpg" class="card-img-top" alt="..." height="200px" width="500px">
+  <div class="card-body">
+    <h5 class="card-title">Loans/Insurance</h5>
+   
+    <a href="#" class="btn btn-primary">View More</a>
+  </div>
+</div>
+  </div>
+ </div>
+
+<br>
+<b><em><h2><font color="dark green"><P class="a">&nbsp; &nbsp;&nbsp;Have any query? Tell Us </P></font></h2></em></b>
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="abc">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput2">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Write your query</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    
+    <center><a href="#" class="btn btn-dark mx-3">Submit</a></center>
+  </form>
+</div>
+
+<footer>
+        
+        <div class="footer-bottom">
+            <hr>
+            <div class="row">
+                <!--Footer Copyright-->
+                <div> 
+                   <span>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Copyright ©2020 All rights reserved by TSF </span>
+                </div>
+                <!--End Footer Copyright-->
+            </div>
+            <br>
+        </div>
+    </footer>
+  </div>
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
